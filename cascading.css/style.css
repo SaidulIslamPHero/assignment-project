@@ -1,0 +1,53 @@
+/* header section */
+.header{
+    background-color:#d8b5cd59;
+}
+
+.banner{
+    display: flex;
+    padding: 30px 30px 0px 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-dis{
+    margin-top: 30px;
+    text-align: justify;
+    color: gray;
+    
+}
+.btn{
+    background-color: palevioletred;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 50px;
+    color: white;
+}
+.first-flower{
+    width: 350px;
+    padding-top: 5px;
+    padding-right: 100px;
+}
+.banner-title{
+    font-size: 50px;
+}
+
+/* main section */
+
+
+/* Our Featured Flowers */
+.Featured-Flowers{
+    text-align: center;
+    padding-top: 80px;
+}
+.section-dis{
+    color: gray;
+    font-weight: 200px;
+}
+.Featured-radious{
+    background-color:pink ;
+}
