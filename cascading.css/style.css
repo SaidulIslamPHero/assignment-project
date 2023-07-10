@@ -48,6 +48,36 @@
     color: gray;
     font-weight: 200px;
 }
-.Featured-radious{
-    background-color:pink ;
+.background-radious{
+    width: 100%;
+    height: 50px; ;
+    display: flex;
+}
+.first-box{
+    width: 200px;
+    height: 250px;
+    background-color:rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-box{
+    width: 200px;
+    height: 250px;
+    background-color:rgba(5, 151, 160, 0.15);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 10px 10px;
+    justify-content: space-between;
+}
+.third-box{
+    width: 200px;
+    height: 250px;
+    background-color:rgba(71, 125, 17, 0.15);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 10px 10px;
+    justify-content: space-between;
 }
