@@ -59,3 +59,26 @@
     padding: 100px;
     padding-right: 250px;
  }
+
+ /* instagram */
+ .instagram-all{
+    text-align: center ;
+    font-weight: 100px;
+    padding-top: 50px;
+ }
+ .instagram-dis{
+    color: gray;
+ }
+
+
+
+/* section four photo */
+.four-photo{
+    display: flex;
+    padding: 0px 240px;
+}
+.photo{
+    height: 250px;
+    width: 200px;
+    padding: 10px 5px;
+}
