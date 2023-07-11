@@ -230,11 +230,21 @@ body{
 .background-tex {}
 
 .form {
-    width: 100%;
-    margin-bottom: 20px;
+    display: flex;
+    height: 30px;
 }
+.last{
+    width: 300px;
+    height: 30px;
+    padding-left: 50px;
+    border: none;
+    text-align: center;
+    margin-right: 10px;
+}
+.Subscribe{
+    display: flex;
 
-
+}
 
 /* footer option */
 footer {
