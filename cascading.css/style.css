@@ -1,24 +1,30 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 /* header section */
-.header{
-    background-color:#d8b5cd59;
+.header {
+    background-color: #d8b5cd59;
 }
 
-.banner{
+.banner {
     display: flex;
     padding: 30px 30px 0px 90px;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.banner-dis{
+
+.banner-dis {
     margin-top: 30px;
     text-align: justify;
     color: gray;
-    
+
 }
-.btn{
+
+.btn {
     background-color: palevioletred;
     border: none;
     border-radius: 5px;
@@ -27,58 +33,242 @@
     font-weight: 50px;
     color: white;
 }
-.first-flower{
+
+.first-flower {
     width: 350px;
     padding-top: 5px;
     padding-right: 100px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 50px;
 }
- /* hot deal */
- .section-background{
-    background-color:rgba(229, 84, 115, 0.05);
+
+/* Our Featured Flowers */
+.Featured-Flowers{
+    text-align: center;
+    padding-top: 80px;
+    max-width: 500px;
+    padding-left: 450px;
+    text-align: center;
+}
+.section-dis{
+    color: gray;
+    font-weight: 200px;
+}
+.background-radious{
+    width: 650px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 345px;
+    padding-bottom: 200px;
+}
+.first-box{
+    width: 220px;
+    height: 250px;
+    background-color:rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0px 0px 0px 30px;
+    text-decoration: underline;
+}
+.second-box{
+    width: 220px;
+    height: 250px;
+    background-color:rgba(5, 151, 160, 0.15);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 10px 10px;
+    justify-content: space-between;
+    padding-left: 0px 0px 0px 300px;
+    text-decoration: underline;
+}
+.pink{
+    text-align: center;
+}
+.third-box{
+    width: 220px;
+    height: 250px;
+    background-color:rgba(71, 125, 17, 0.15);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 10px 10px;
+    justify-content: space-between;
+    padding-left: 0px 0px 0px 30px;
+    text-decoration: underline;
+}
+
+.img{
+    padding-top: 50px;
+    width: 150px;
+    height: 200px;
+    margin-left: 27px;
+}
+
+/* bonas */
+.bonas {
+    background-color: #2727270d;
+    height: 180px;
+    width: 1100px;
+    margin: 100px 125px;
+    padding-top: 40px;
+}
+
+.all-pic {
+    display: flex;
+    text-align: center;
+}
+.pic{
+    color: gray;
+    height: 250px;
+    width: 200px;
+    padding: 10px 100px;
+    justify-content: space-around;
+}
+.pic-dis{
+    font-size: 10px;
+}
+.group{
+    height: 80px;
+    width: 80px;
+}
+
+
+/* hot deal */
+.section-background {
+    background-color: rgba(229, 84, 115, 0.05);
     margin-top: 100px;
- }
- .all-project{
+}
+
+.all-project {
     display: flex;
     padding: 30px 30px 0px 90px;
     align-items: center;
     justify-content: space-between;
- }
- #span{
+}
+
+#span {
     color: #E55473;
- }
- .hot-content{
+}
+
+.hot-dis {
+    color: gray;
+}
+
+.hot-content {
     max-width: 500px;
     padding-left: 70px;
     text-align: center;
- }
- .second-flower{
+}
+
+.second-flower {
     width: 180px;
     padding: 100px;
     padding-right: 250px;
- }
+}
 
- /* instagram */
- .instagram-all{
-    text-align: center ;
+/* instagram */
+.instagram-all {
+    text-align: center;
     font-weight: 100px;
     padding-top: 50px;
- }
- .instagram-dis{
-    color: gray;
- }
+}
 
+.instagram-dis {
+    color: gray;
+    max-width: 1000px;
+    padding: 20px 428px;
+    text-align: center;
+}
+
+.instagram-title {
+    font-size: 30px;
+}
 
 
 /* section four photo */
-.four-photo{
+.four-photo {
     display: flex;
     padding: 0px 240px;
 }
-.photo{
+
+.photo {
     height: 250px;
     width: 200px;
     padding: 10px 5px;
+}
+
+/* section background img */
+.background-img {
+    background-image: url('../Flower/Rectangle9.png');
+    height: 350px;
+    width: 830px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 30px 250px;
+    margin-top: 50px;
+}
+
+.background-tex {
+    text-align: center;
+    padding: 30px 300px 80px 300px;
+}
+
+.latest-deal-dis {
+    font-size: 10px;
+    padding-top: 1px;
+    font-weight: 200px;
+}
+.latest-deal-dis{
+    color: gray;
+}
+
+.background-tex {}
+
+.form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+/* footer option */
+footer {
+    background-color: black;
+}
+.footer-content {
+    text-align: center;
+    width: auto;
+    padding-top: 40px;
+}
+.footer-dis {
+    color: rgba(255, 255, 255, 0.644);
+    max-width: 500px;
+    padding: 5px 480px;
+    text-align: center;
+    font-size: 10px;
+
+}
+.footer-b {
+    color: gray;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-bottom: 100px;
+}
+.text-color {
+    color: #E55473;
+}
+
+.text-color2 {
+    color: white;
+}
+.p{
+    padding-top: 2px;
+    padding:0px 500px ;
+    font-size: 10px;
 }
